@@ -1,0 +1,116 @@
+
+:root{
+    --base-color: 200, 35%;
+}
+
+.main {
+    position: relative;
+}
+
+header{
+    background-color:  hsl(var(--base-color), 19%); 
+    padding: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+h1{
+    color: hsl(var(--base-color), 22%);
+    font-size: 90px;
+    text-align: center;
+    font-weight: 1000;
+    margin-top: 10px;
+    opacity: 0.5;
+    font-family: sans-serif;
+}
+
+.p1{
+    color: hsl(var(--base-color), 70%);
+    font-size: 40px;
+    margin-top: -150px;
+    opacity: 0.95;
+}
+
+ul{
+    color: hsl(var(--base-color), 50%);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    box-shadow: 2px 2px 8px 2px darkgrey;
+}
+
+.button li{
+    border: 1px solid;
+    border-radius: 5px;
+    margin-left: 18px;
+    border-color: darkgrey;
+}
+
+.button li a:hover{
+    background-color: hsl(var(--base-color), 22%);
+    color: aliceblue;
+    box-shadow: 2px 2px 8px 2px darkgrey;
+    scale: 1.2;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 1s;
+    transform: translateY(5px);
+}
+
+.section1:hover{
+    background-color: hsl(var(--base-color), 22%);
+    color: hsl(var(--base-color), 80%);
+    transition: 1s, transform 2s;
+}
+
+.section1{
+    margin-top: 90px;
+    padding: 3px;
+    color: hsl(var(--base-color), 40%);
+}
+
+.section2:hover{
+    background-color: hsl(var(--base-color), 22%);
+    color: hsl(var(--base-color), 80%);
+    transition: 1s, transform 2s;
+}
+
+.section2{
+    padding: 3px;
+    color: hsl(var(--base-color), 40%);
+}
+
+.section2 h3{
+    font-size: 23px;
+}
+
+footer{
+    padding: 0.5rem;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid;
+    margin-top: 10px;
+    color: hsl(var(--base-color), 40%);
+    border-color: hsl(var(--base-color), 40%);
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        display: block;
+    }
+}
